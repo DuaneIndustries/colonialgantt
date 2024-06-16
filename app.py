@@ -17,11 +17,11 @@ from datetime import datetime, timedelta, date
 # sheet_name = "Data”
 # url = f”https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 
-# url='https://raw.githubusercontent.com/DuaneIndustries/RivalExpansion/main/RIval_Project_Calendar_v13.csv'
-# s=requests.get(url).content
-# df=pd.read_csv(io.StringIO(s.decode('utf-8')))
+url='https://raw.githubusercontent.com/DuaneIndustries/colonialgantt/main/Colonial_Coffee_Gantt_3.csv'
+s=requests.get(url).content
+df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
-df = pd.read_csv("/Users/caseyleo/Desktop/Colonial_Coffee_Gantt_3.csv")
+# df = pd.read_csv("/Users/caseyleo/Desktop/Colonial_Coffee_Gantt_3.csv")
 
 
 
