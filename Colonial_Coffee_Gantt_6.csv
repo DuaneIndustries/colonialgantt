@@ -1,0 +1,18 @@
+Project Section,Task,Crew,Start Date,Duration,End Date,Day Completed,Completion PCT
+Project Coordination,bid acceptance,colonial,6/24/24,1,6/25/24,0,0.00%
+Project Coordination,final engineering,Duane,6/24/24,2,7/7/24,0,0.00%
+Procurement,Cableveys,Duane,6/24/24,13,9/16/24,0,0.00%
+Procurement,bucket elevator,Duane,7/22/24,5,8/26/24,0,0.00%
+Procurement,fabrication,Duane,7/8/24,7,8/26/24,0,0.00%
+Procurement,load cells,Duane,6/24/24,6,9/16/24,0,0.00%
+Procurement,controls,Duane,7/8/24,10,9/16/24,0,0.00%
+Procurement,control components,Duane,6/24/24,8,8/19/24,0,0.00%
+Procurement,logistics and shipping,Duane,9/9/24,1,9/16/24,0,0.00%
+Installation,Mobilization,Duane,9/14/24,1,9/15/24,0,0.00%
+Installation,Frames,Duane,9/16/24,1,9/20/24,0,0.00%
+Installation,dump platform,Duane,9/16/24,2,9/27/24,0,0.00%
+Installation,bucket elevator,Duane,9/30/24,1,10/4/24,0,0.00%
+Installation,silos,Duane,9/23/24,3,10/11/24,0,0.00%
+Installation,Cableveys,Duane,9/16/24,5,10/25/24,0,0.00%
+Programming,Develop Program,Duane,7/15/24,3,8/2/24,0,0.00%
+Start up,start up and debug,Duane,10/28/24,2,11/8/24,0,0.00%
