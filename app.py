@@ -62,7 +62,7 @@ app.layout = html.Div([
         dcc.DatePickerRange(
             id='date-picker-range',
             start_date=date(2024,6,17),
-            end_date=date(2024,6,21),
+            end_date=date(2024,10,31),
             style={'display': 'inline-block', 'float': 'right'}
         ),
     ]),
@@ -159,21 +159,20 @@ def update_gantt(all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
             x_start="Start Date",
             x_end="End Date",
             y="Task",
-            color='Completion PCT',
+            color='Project Section',
             hover_name='Task',
             hover_data={'Crew':True,'Project Section':True,'Pattern':False,'Completion PCT':True,'Task':False},
             category_orders={"Project Section": ["Project Coordination", "Procurement", "Installation", "Programming", "Start up"]},
             color_continuous_scale='blackbody',
             color_continuous_midpoint=50,
             opacity=.5,
-            pattern_shape='Pattern'
         ).update_layout(
             paper_bgcolor='whitesmoke',
             plot_bgcolor='whitesmoke',
             hovermode="closest",
             xaxis_title="Schedule",
             yaxis_title="Task",
-            showlegend=False,
+            showlegend=True,
             title_font_size=24,
             font_color='dimgray',
             hoverlabel=dict(
@@ -191,3 +190,4 @@ def update_gantt(all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
