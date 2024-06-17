@@ -51,7 +51,7 @@ server=app.server
 
 
 app.layout = html.Div([
-    html.H1('Colonial Green Coffee System', style={'color': 'blue', 'fontSize': 40,'textAlign': 'center'}),
+    html.H1('Colonial Green Coffee System', style={'color': 'black', 'fontSize': 40,'textAlign': 'center'}),
     html.Div(children=[
         dcc.Dropdown([x for x in sorted(dff['Project Section'].unique())],
                               value=[],
