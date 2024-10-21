@@ -17,7 +17,7 @@ from datetime import datetime, timedelta, date
 # sheet_name = "Data”
 # url = f”https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 
-url='https://raw.githubusercontent.com/DuaneIndustries/colonialgantt/main/Colonial_Coffee_Gantt_6.csv'
+url='https://raw.githubusercontent.com/DuaneIndustries/colonialgantt/main/Colonial_Coffee_Gantt_7.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
@@ -62,7 +62,7 @@ app.layout = html.Div([
         dcc.DatePickerRange(
             id='date-picker-range',
             start_date=date(2024,6,17),
-            end_date=date(2024,10,31),
+            end_date=date(2025,3,31),
             style={'display': 'inline-block', 'float': 'right'}
         ),
     ]),
