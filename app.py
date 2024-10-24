@@ -17,7 +17,7 @@ from datetime import datetime, timedelta, date
 # sheet_name = "Data”
 # url = f”https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 
-url='https://raw.githubusercontent.com/DuaneIndustries/colonialgantt/main/Colonial_Coffee_Gantt_12.csv'
+url='https://raw.githubusercontent.com/DuaneIndustries/colonialgantt/main/Colonial_Coffee_Gantt_13.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
@@ -160,8 +160,8 @@ def update_gantt(all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
             x_end="End Date",
             y="Task",
             color='Project Section',
-            hover_name='Task',
-            hover_data={'Crew':True,'Project Section':True,'Pattern':False,'Completion PCT':False,'Task':False,'Duration':True,'Detail':True},
+            hover_name='Detail',
+            hover_data={'Crew':True,'Project Section':True,'Pattern':False,'Completion PCT':False,'Task':False,'Duration':True,'Detail':False},
             category_orders={"Project Section": ["Project Coordination", "Procurement", "Installation", "Programming", "Start up"]},
             color_continuous_scale='blackbody',
             color_continuous_midpoint=50,
