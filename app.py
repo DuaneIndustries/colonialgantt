@@ -165,6 +165,7 @@ def update_gantt(all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
             category_orders={"Project Section": ["Project Coordination", "Procurement", "Installation", "Programming", "Start up"]},
             color_continuous_scale='blackbody',
             color_continuous_midpoint=50,
+            color_discrete_sequence=["red", "green", "blue", "goldenrod", "black","grey"],
             opacity=.5,
         ).update_layout(
             paper_bgcolor='whitesmoke',
