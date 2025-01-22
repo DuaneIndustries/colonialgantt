@@ -1,0 +1,24 @@
+Project Section,Task,Detail,Crew,Start Date,Duration,End Date,Day Completed,Completion PCT
+Delivery,Cableveys,Cablevey Delivery,Jerry,2/17/25,2,2/19/25,0,0.00%
+Delivery,Green Bean cleaner,Cleaner Delivery,Jerry,2/17/25,2,2/19/25,0,0.00%
+Delivery,Bucket elevator,Bucket elevator,Jerry,2/18/25,2,2/20/25,0,0.00%
+Delivery,Silos + Load Cells,Bin Delivery,Jerry,3/3/25,2,3/5/25,0,0.00%
+Delivery,Silos + Load Cells,Load Cell Delivery,Jerry,2/17/25,2,2/19/25,0,0.00%
+Delivery,controls,controls Delivery,Aleks,2/3/25,2,2/5/25,0,0.00%
+Project Coordination,Project Management,Project Management,Sebastian,2/17/25,5,2/22/25,0,0.00%
+Project Coordination,Project Management,Project Management,JRD,2/22/25,5,2/27/25,0,0.00%
+Programming,Programming and Engineering,Back End,Sebastian,1/27/25,14,2/10/25,0,0.00%
+Programming,Programming and Engineering,Front End,Sebastian,2/24/25,14,3/10/25,0,0.00%
+Installation,Mobilization,Mobilization,Jerry,2/17/25,1,2/18/25,0,0.00%
+Installation,Frames,Dump Platform Install,Jerry,3/11/25,5,3/16/25,0,0.00%
+Installation,Frames,Bin Frame Fabrication + Paint,Jerry,3/16/25,10,3/26/25,0,0.00%
+Installation,Cableveys,Jacob Tubing + Slide Gates + Turnarounds Install,Jerry,3/30/25,5,4/4/25,0,0.00%
+Installation,Bucket elevator,Bucket elevator install,Jerry,3/26/25,3,3/29/25,0,0.00%
+Installation,Green Bean cleaner,GB cleaner install,Jerry,3/30/25,5,4/4/25,0,0.00%
+Installation,Silos + Load Cells,Load Cell Install,Jerry,3/30/25,2,4/1/25,0,0.00%
+Installation,Silos + Load Cells,Bin Install,Jerry,3/26/25,4,3/30/25,0,0.00%
+Installation,Cableveys,Cablevey Install,Jerry,2/18/25,21,3/11/25,0,0.00%
+Electrical,controls,Panel Fab,Aleks,2/20/25,14,3/6/25,0,0.00%
+Electrical,controls,Panel Mount & Install,Aleks,3/6/25,1,3/7/25,0,0.00%
+Electrical,Wiring and Terminations,Wiring and Terminations,Aleks,3/24/25,17,4/10/25,0,0.00%
+Start Up,Start up and Debug,Upload Program + Troubleshoot,Sebastian,4/10/25,5,4/15/25,0,0.00%
