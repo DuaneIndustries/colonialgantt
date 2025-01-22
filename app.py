@@ -17,7 +17,7 @@ from datetime import datetime, timedelta, date
 # sheet_name = "Data”
 # url = f”https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 
-url='https://raw.githubusercontent.com/DuaneIndustries/colonialgantt/main/Colonial_Coffee_Gantt_13.csv'
+url='https://raw.githubusercontent.com/DuaneIndustries/colonialgantt/main/Colonial_Coffee_Gantt_14.csv'
 s=requests.get(url).content
 df=pd.read_csv(io.StringIO(s.decode('utf-8')))
 
@@ -36,7 +36,7 @@ df = df.sort_values(by='Start Date',ascending=False)
 dff = df
 
 # Determine the start of each week
-start_dates = pd.date_range(start='2024-02-16', end='2024-04-26', freq='W-MON')
+start_dates = pd.date_range(start='2025-02-16', end='2025-04-30', freq='W-MON')
 
 # Create a DataFrame with start dates of each week
 week_markers = pd.DataFrame({'Start Date': start_dates, 'Week_Start': True})
@@ -61,8 +61,8 @@ app.layout = html.Div([
                              id='section-dropdown'),
         dcc.DatePickerRange(
             id='date-picker-range',
-            start_date=date(2024,10,22),
-            end_date=date(2025,3,31),
+            start_date=date(2025,2,1),
+            end_date=date(2025,4,30),
             style={'display': 'inline-block', 'float': 'right'}
         ),
     ]),
