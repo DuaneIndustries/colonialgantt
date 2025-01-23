@@ -163,7 +163,7 @@ def update_gantt(all_rows_data, slctd_row_indices, slct_rows_names, slctd_rows,
             hover_name='Detail',
             hover_data={'Crew':True,'Project Section':True,'Pattern':False,'Completion PCT':False,'Task':False,'Duration':True,'Detail':False},
             category_orders={"Project Section": ["Project Coordination", "Procurement", "Installation", "Programming", "Start up"],
-                            "Task" : ["Programming and Engineering","Project Management","Cableveys","Frames","Bucket Elevator","Silos + Load Cells","Green Bean Cleaner","controls"]},
+                            "Task" : ["Programming and Engineering","Project Management","Cableveys","Frames","Bucket elevator","Silos + Load Cells","Green Bean cleaner","controls"]},
             color_continuous_scale='blackbody',
             color_continuous_midpoint=50,
             color_discrete_map={
