@@ -56,6 +56,7 @@ app.layout = html.Div([
         dcc.Dropdown([x for x in sorted(dff['Crew'].unique())],
                               value=[],
                              clearable=False,
+                             placeholder = "Filter by Crew",
                              multi=True,
                              style={'width':'65%'},
                              id='section-dropdown'),
