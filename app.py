@@ -107,7 +107,7 @@ def update_table(section_value, start_date, end_date):
 
     # Filter by section dropdown
     if section_value:
-        dff = dff[dff['Project Section'].isin(section_value)]
+        dff = dff[dff['Crew'].isin(section_value)]
 
     # Filter by date range
     if start_date and end_date:
